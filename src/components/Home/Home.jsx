@@ -1,8 +1,9 @@
+import Register from "../../Register/Register";
 
 const Home = () => {
     return (
-        <div className="flex justify-center items-center h-screen">
-            fh
+        <div className="flex justify-center flex-wrap items-center ">
+            <Register></Register>
         </div>
     );
 };
